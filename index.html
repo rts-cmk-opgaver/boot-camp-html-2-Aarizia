@@ -15,7 +15,7 @@
                             <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                             </svg>
-                            <p>Menu</p>
+                            Menu
                         </a>
                     </nav>
                     <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -23,37 +23,33 @@
                     </svg>
                 </div>
                 <h1>Information</h1>
-                <div class="log-in">
-                    <a href="#">
-                        log ind
-                        <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"></path>
-                        </svg>
-                    </a>
-                </div>
+                <a href="#">
+                    log ind
+                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"></path>
+                    </svg>
+                </a>
             </div>
-            <div class="header__bottom-bar">
-                <ul>
-                    <li>
-                        <a href="#">Nyhedsbreve</a>
-                    </li>
-                    <li>
-                        <a href="#">Podcast</a>
-                    </li>
-                    <li>
-                        <a href="#">Køb abonnement</a>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <a href="#">Nyhedsbreve</a>
+                </li>
+                <li>
+                    <a href="#">Podcast</a>
+                </li>
+                <li>
+                    <a href="#">Køb abonnement</a>
+                </li>
+            </ul>
         </header>
         <main>
-            <article class="reklame">
+            <div class="reklame">
                 <a href="#">
                     <img src="https://picsum.photos/200/300" alt="reklamefoto">
                 </a>
                 <p>Annonce</p>
-            </article>
-            <article>
+            </div>
+            <div>
                 <article class="hero">
                     <div>
                         <p>Abonnement</p>
@@ -75,10 +71,10 @@
                         <img src="https://picsum.photos/200/300" alt="article image">
                     </div>
                 </article>
-                <article class="article-text">
-                    <div class="authors">
-                        <p>Udland</p>
-                        <article class="first-author">
+                <div class="article-text">
+                    <article class="authors">
+                        <h3>Udland</h3>
+                        <address class="first-author">
                             <img src="https://picsum.photos/30/30" alt="headshot of author">
                             <div class="author-flex-container">
                                 <p>Jakob Stein</p>
@@ -101,8 +97,8 @@
                                     </a>
                                 </div>
                             </div>
-                        </article>
-                        <article class="second-author">
+                        </address>
+                        <address class="second-author">
                             <p>Peter Nygaard Christensen</p>
                             <a href="#" class="email-flex-container">
                                 <div>
@@ -112,11 +108,25 @@
                                 </div>
                                 <p>Email</p>
                             </a>
-                        </article>
-                    </div>
-                    <article class="text">
+                        </address>
+                    </article>
+                    <div class="text">
+                        <header>
+                            <div>
+                                <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                                </svg>
+                                <p>7. maj 2018</p>
+                            </div>
+                            <div>
+                                <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"></path>
+                                </svg>
+                                <p>Kommentarer (2)</p>
+                            </div>
+                        </header>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto enim dolore, dolorum eum temporibus provident esse voluptates quaerat, facere nihil tempore optio ullam neque adipisci deleniti velit! Culpa, enim architecto.</p>
-                        <article class="soccial-media-widgets">
+                        <div>
                             <a href="#" class="social-media-facebook">
                                 <div class="facebook-widget">
                                     <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -134,23 +144,23 @@
                                 <p>Tweet</p>
                             </a>
                             <a href="#" class="social-media-email">
-                                <div class="facebook-widget">
+                                <address class="facebook-widget">
                                     <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"></path>
                                     </svg>
-                                </div>
-                                <p>Email</p>
+                                </address>
+                                <address>Email</address>
                             </a>
-                        </article>
-                    </article>
-                </article>
-            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <article class="sign-in">
-                <p>Vores abonnenter kalder os kritisk, seriøs og troværdig. <span>Se om du er enig...</span></p>
+                <h2>Vores abonnenter kalder os kritisk, seriøs og troværdig. <span>Se om du er enig...</span></h2>
                 <a href="#">Klik her</a>
                 <p>Allerede abonnent? <a href="#">Log ind her</a></p>
             </article>
-            <article class="other-articles">
+            <div class="other-articles">
                 <header>
                     <div class="flex-container">
                         <div class="text-and-icon">
@@ -177,59 +187,59 @@
                         </nav>
                     </div>
                 </header>
-                <article>
+                <div>
                     <section>
                         <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>Alternativ forbrødring, eller hvordan jeg lærte at holde op med at bekymre mig og elske jazzhænder</h3>
+                        <h2>Alternativ forbrødring, eller hvordan jeg lærte at holde op med at bekymre mig og elske jazzhænder</h2>
                     </section>
                     <section>
                         <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3> >>Jeg måtte ud på det dybe vand for at nå til et nyt land<< </h3>
+                        <h2> &gt;&gt;Jeg måtte ud på det dybe vand for at nå til et nyt land&lt;&lt; </h2>
                     </section>
                     <section>
                         <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>Iceage lever stadig op til den hype, de opnåede, inden de var gamle nok til at flytte hjemmefra</h3>
+                        <h2>Iceage lever stadig op til den hype, de opnåede, inden de var gamle nok til at flytte hjemmefra</h2>
                     </section>
                     <section>
                         <img src="https://picsum.photos/75/50" alt="article image">
-                        <h3>Under normale forhold ville Trumps skandaleramte miljøchef forlængst være blevet bortvist...</h3>
+                        <h2>Under normale forhold ville Trumps skandaleramte miljøchef forlængst være blevet bortvist...</h2>
                     </section>
-                </article>
+                </div>
                 <article>
                     <header>
-                        <p>Seneste nyt</p>
+                        <h2>Seneste nyt</h2>
                     </header>
                     <ul>
                         <li>
                             <p>16:36</p>
-                            <a href="#"><h4>Slut med møntbetaling i københavnske p-automater</h4></a>
+                            <a href="#"><h3>Slut med møntbetaling i københavnske p-automater</h3></a>
                         </li>
                         <li>
                             <p>16:26</p>
-                            <a href="#"><h4>Energiminister: Afgift på biomasse er forkert vej at gå</h4></a>
+                            <a href="#"><h3>Energiminister: Afgift på biomasse er forkert vej at gå</h3></a>
                         </li>
                         <li>
                             <p>15:45</p>
-                            <a href="#"><h4>Libanesisk premierministers parti går en tredjedel tilbage</h4></a>
+                            <a href="#"><h3>Libanesisk premierministers parti går en tredjedel tilbage</h3></a>
                         </li>
                         <li>
                             <p>15:10</p>
-                            <a href="#"><h4>Ombudsmand: Offentligheden må se kronprinsens IOC-breve</h4></a>
+                            <a href="#"><h3>Ombudsmand: Offentligheden må se kronprinsens IOC-breve</h3></a>
                         </li>
                         <li>
                             <p>15:02</p>
-                            <a href="#"><h4>WWF: Vildsvinehegn skader andre dyrearter i grænselandet</h4></a>
+                            <a href="#"><h3>WWF: Vildsvinehegn skader andre dyrearter i grænselandet</h3></a>
                         </li>
                         <li>
                             <p>14:46</p>
-                            <a href="#"><h4>Atomaftale med Iran fortsætter også uden USA</h4></a>
+                            <a href="#"><h3>Atomaftale med Iran fortsætter også uden USA</h3></a>
                         </li>
                     </ul>
-                    <a href="#">Flere nyheder <span>></span></a>
+                    <a href="#">Flere nyheder <span>&gt;</span></a>
                 </article>
                 <article>
                     <header>
-                        <a href="#">Information.dk</a>
+                        <a href="#"><h2>Information.dk</h2></a>
                     </header>
                     <div>
                         <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -266,15 +276,15 @@
                         <h3>440.000 syrere er vendt tilbage, selv om krigen fortsætter. Vi har fulgt en af dem</h3>
                     </section>
                 </article>
-            </article>
-            <article>
+            </div>
+            <div>
                 <article>
-                    <p>Anbefalinger</p>
+                    <h2>Anbefalinger</h2>
                     <a href="#">Anbefal artikel</a>
                 </article>
                 <article>
-                    <p>Kommentarer</p>
-                    <article>
+                    <h2>Kommentarer</h2>
+                    <div>
                         <div>
                             <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
@@ -286,8 +296,8 @@
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nesciunt tempore maxime ab eveniet. Quia quod dolorem possimus magni tempora.</p>
                         <a href="#">Anbefal kommentar</a>
-                    </article>
-                    <article>
+                    </div>
+                    <div>
                         <div>
                             <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
@@ -299,15 +309,15 @@
                         </div>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis tenetur et itaque tempore distinctio in. <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque est officia nostrum.</span><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea inventore eos dolor temporibus omnis unde vel, neque deserunt.</span><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis est veniam voluptatibus totam neque commodi beatae vitae sunt nesciunt optio necessitatibus, error cum?</span></p>
                         <a href="#">Anbefal kommentar</a>
-                    </article>
+                    </div>
                     <p>Du skal være registreret bruger for at kommentere. <a href="#">Log ind</a> eller <a href="#">opret bruger <span>>></span></a></p>
                 </article>
-            </article>
+            </div>
         </main>
         <footer>
             <div>
-                <article>
-                    <p>Information som avis</p>
+                <section>
+                    <h2>Information som avis</h2>
                     <p>Du kan læse Information, lige som du vil <span>På din mobil, tablet eller computer - og helt ude i skoven.</span></p>
                     <div class="footer-links">
                         <a href="#">
@@ -329,7 +339,7 @@
                             <p>Download til Android</p>
                         </a>
                     </div>
-                    <p>Følg avisen</p>
+                    <h2>Følg avisen</h2>
                     <div class="footer-links">
                         <a href="#">
                             <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -356,26 +366,26 @@
                             <p>RSS</p>
                         </a>
                     </div>
-                </article>
-                <article>
+                </section>
+                <div>
                     <img src="https://picsum.photos/50/100" alt="newspaper frontpage">
-                </article>
-                <article>
-                    <p>Information hver morgen</p>
+                </div>
+                <section>
+                    <h2>Information hver morgen</h2>
                     <form>
                         <label for="register" hidden></label>
                         <input type="text" id="register" placeholder="Skriv din email her">
                         <button type="submit">Tilmeld</button>
                     </form>
-                    <p>Køb avisen</p>
+                    <h2>Køb avisen</h2>
                     <p>Få et godt tilbud</p>
                     <a href="#">Abonnement - selvbetjening</a>
                     <a href="#">Abonnementsbetingelser</a>
                     <a href="#">Information i løssalg</a>
                     <a href="#">Hjælp til information.dk</a>
-                </article>
-                <article>
-                    <p>Om information</p>
+                </section>
+                <section>
+                    <h2>Om information</h2>
                     <a href="#">Redaktion</a>
                     <a href="#">iBureauet</a>
                     <a href="#">Besøg Butikken</a>
@@ -383,7 +393,7 @@
                     <a href="#">Ledige stillinger</a>
                     <a href="#">Økonomi og ledelse</a>
                     <p>Hosted hos Sentia</p>
-                </article>
+                </section>
             </div>
             <p>Ansvarshavende chefredaktør: Rune Lykkeberg | Dagbladet Information, Store Kongensgade 40C, 1264 København. Telefon: 3369 6000 | CVR: 63058416 <span><a href="#">Privatlivspolitik</a> | <a href="#">Cookies</a> | <a href="#">Annoncering</a></span></p>
             <a href="#">Skriv til os</a>
